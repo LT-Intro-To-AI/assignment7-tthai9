@@ -44,6 +44,8 @@ test_data = [
     [.9, .8, .8, .3, .6]
 ]
 
+print("\nRepublican/Democrat Test:\n")
+
 print(f"case 1: {von.evaluate(test_data[0])}")
 print(f"case 2: {von.evaluate(test_data[1])}")
 print(f"case 3: {von.evaluate(test_data[2])}")
